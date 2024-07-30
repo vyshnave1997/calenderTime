@@ -1,0 +1,74 @@
+/* General styles for the entire app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* White text color for the entire app */
+  background-color: #282c34; /* Dark background color for contrast */
+}
+
+/* Container styles */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Calendar styling */
+.calendar {
+  margin: 20px auto;
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Time styling */
+.time {
+  margin: 20px;
+  font-size: 24px;
+}
+
+/* Weather section styling */
+.weather {
+  margin: 20px;
+}
+
+/* Input field styling */
+.weather input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #444; /* Dark background for input */
+  color: white; /* White text color for input */
+}
+
+/* Button styling */
+.weather button {
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #61dafb; /* Light blue background for button */
+  color: #282c34; /* Dark text color for button */
+  font-size: 16px;
+}
+
+/* Status dot styling */
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Green dot for connected state */
+.status-dot.connected {
+  background-color: #4caf50; /* Green */
+}
+
+/* Red dot for disconnected state */
+.status-dot.disconnected {
+  background-color: #f44336; /* Red */
+}
